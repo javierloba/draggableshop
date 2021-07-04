@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Drag & Shop</h1>
+    <div id="page">	
+        <section id="products" class="products">
+            <h3>Product List</h3>
+			<ul class="grid">
+                <li id="product-1" data-price="2.10">
+                    <img src="img/aguacate.jpg" class="card" alt="aguacate" style="width: 8rem;" draggable="false">
+                </li>
+				<li id="product-2" data-price="1.20">
+                    <img src="img/cebolla.jpg" class="card" alt="cebolla" style="width: 8rem;" draggable="false">
+                </li>
+				<li id="product-3" data-price="2.00">
+                    <img src="img/manzana.png" class="card" alt="manzana" style="width: 8rem;" draggable="false">
+                </li>
+				<li id="product-4" data-price="3.50">
+                    <img src="img/pimiento.jpeg" class="card" alt="pimiento" style="width: 8rem;" draggable="false">
+                </li>
+				<li id="product-5" data-price="4.25">
+                    <img src="img/sandia.jpeg" class="card" alt="sandia" style="width: 8rem;" draggable="false">
+                </li>
+				<li id="product-6" data-price="6.75">
+                    <img src="img/uvas.jpeg" class="card" alt="uvas" style="width: 8rem;" draggable="false">
+                </li>
+			</ul>
+		</section>
+        <section id="cart" class="shopping-cart">
+            <h3>Shopping Cart</h3>
+            <ul class="item-total">
+            </ul>
+            <span class="total">0.00</span>
+        </section>
+	</div> 	
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
